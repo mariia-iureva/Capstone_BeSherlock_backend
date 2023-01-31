@@ -1,0 +1,143 @@
+[
+    {
+        "triggers": [
+            "/start",
+            "start"
+        ],
+        "replies": [
+            {
+                "reply": "Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "alright",
+            "case"
+        ],
+        "replies": [
+            {
+                "reply": "Old Macdonald said that his wife had been acting strange for the past few days, and she seemed to be keeping secrets from him. He also said that she had been spending a lot of time with the animals on the farm. That's why we think the animals may have some clues.",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "first",
+            "information",
+            "first clue"
+        ],
+        "replies": [
+            {
+                "reply": "Old Macdonald said his wife was planning to get some fresh milk in the morning, any ideas where she could be?",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "cow"
+        ],
+        "replies": [
+            {
+                "reply": "Yes, brilliant! She planned to go to the cow, let's go to the barn!",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "ask the cow",
+            "second clue"
+        ],
+        "replies": [
+            {
+                "reply": "The cow says the woman also planned to prepare new yarn for the market. Where could it be?",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "sheep"
+        ],
+        "replies": [
+            {
+                "reply": "Great idea! Let's go to the pasture!",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "ask the sheep",
+            "third"
+        ],
+        "replies": [
+            {
+                "reply": "Sheep says she wanted to get some eggs",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "chickens",
+            "chicken"
+        ],
+        "replies": [
+            {
+                "reply": "I'm afraid they don't have chickens here on this farm. Any other ideas?",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            
+            "ducks"
+        ],
+        "replies": [
+            {
+                "reply": "Great! Let's run to the pond!",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "ask the duck"
+        ],
+        "replies": [
+            {
+                "reply": "The duck says it's all for the birthday cake! She says we should check big red farm builing!",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "triggers": [
+            "barn"
+        ],
+        "replies": [
+            {
+                "reply": " The barn! That must be where she is. Let's hurry! Do you hear the music?",
+                "type": "text"
+            }
+        ]
+    },    
+    {
+        "triggers": [
+            "music",
+            "yes, I hear"
+        ],
+        "replies": [
+            {
+                "reply": "And look, there's Old Macdonald's wife, she's the one who set up the surprise party for him! Congratulations, you solved it!!",
+                "type": "text"
+            }
+        ]
+    }
+]
