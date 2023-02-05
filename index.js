@@ -1,7 +1,15 @@
+const { enableLogging } = require("./logging");
+// import { enableLogging } from "./logging.js";
+
+// var fs = require("fs");
+// var util = require("util");
+
 const express = require("express");
+const cors = require("cors");
+// require("dotenv").config();
+
 const PORT = process.env.PORT || 3001;
 const app = express();
-const cors = require("cors");
 const { NlpManager } = require("node-nlp");
 
 manager = new NlpManager();
@@ -9,12 +17,10 @@ manager = new NlpManager();
 app.use(cors());
 app.use(express.json()); // JSON encoded body
 
-// // ---------- FAST ANSWERS ----------
-// const fs = require("fs");
-// const fastAnswers = JSON.parse(fs.readFileSync("./answers.json", "utf8"));
-// // ---------- FAST ANSWERS END ----------
-
+// Loading nlp model for answers:
 manager.load("./model.nlp");
+
+enableLogging;
 
 app.get("/", function (req, res) {
   res.send("Hi! I am Masha's game ChatBot.");
@@ -22,24 +28,20 @@ app.get("/", function (req, res) {
 
 app.post("/postMessage", async function (req, res) {
   let message = req.body.message.toLowerCase();
-  // let reply = getReply(message);
-  console.log("message from User:", message);
+  console.log("[INFO](" + timestamp + ") Msg from User: " + message);
+  // console.log("message from User:" + message);
 
   const reply = await manager.process("en", message);
-
-  // if (reply.intent === "None") {
-  //   res.send({ bot_message: "I don't understand, try one more time!" });
-  //   return;
-  // }
 
   if (reply.intent === "None") {
     const reply = await manager.process("en", "Tell me you don't know");
     res.send({ bot_message: reply.answer });
+    console.log("[INFO](" + timestamp + ") Msg from Bot: " + reply.answer);
     return;
   }
 
-  console.log(reply);
-
+  // console.log(reply);
+  console.log("[INFO](" + timestamp + ") Msg from Bot: " + reply.answer);
   res.send({ bot_message: reply.answer });
 });
 
