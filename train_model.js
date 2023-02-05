@@ -1,16 +1,35 @@
 const { NlpManager } = require("node-nlp");
 
 var jsonData = require("./answers.json");
+var jsonData02 = require("./dont_know_answers.json");
 
 const manager = new NlpManager({ languages: ["en"] });
-// Looping over json
+
+// Looping over json 01
 
 jsonData.forEach((element, id) => {
   element.triggers.forEach((input) => {
-    manager.addDocument("en", input, `greetings.${id}`);
+    manager.addDocument("en", input, `oldmackdonald.${id}`);
   });
-  manager.addAnswer("en", `greetings.${id}`, element.replies[0].reply);
+  manager.addAnswer("en", `oldmackdonald.${id}`, element.replies[0].reply);
 });
+
+// looping over json 02
+
+jsonData02.forEach((element) => {
+  manager.addDocument("en", element.trigger, `game.dontknow`);
+
+  element.reply.forEach((reply) => {
+    manager.addAnswer("en", `game.dontknow`, reply);
+  });
+});
+
+// // //Adding don't know lines
+// manager.addDocument("en", "Tell me you don't know", "game.dontknow");
+
+// // // Answers for don't know
+// manager.addAnswer("en", "game.dontknow", "I don't know, I'm a cactus");
+// manager.addAnswer("en", "game.dontknow", "No idea");
 
 // Adds the utterances and intents for the NLP
 manager.addDocument("en", "goodbye for now", "greetings.bye");
@@ -29,9 +48,10 @@ manager.addAnswer("en", "greetings.hello", "Hey there!");
 manager.addAnswer("en", "greetings.hello", "Greetings!");
 
 // Train and save the model.
+// use this command to train the model: node train_model.js
 (async () => {
   await manager.train();
   manager.save("./model.nlp", true);
-  const response = await manager.process("en", "cow");
+  const response = await manager.process("en", "Tell me you don't know");
   console.log(response);
 })();
