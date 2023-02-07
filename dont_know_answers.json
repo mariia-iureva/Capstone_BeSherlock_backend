@@ -1,0 +1,35 @@
+[{
+    "trigger": 
+        "Tell me you don't know", 
+    "reply": ["My dear Holmes, that is not in my files.",
+            "Forgive me Holmes, I'm afraid I'm not trained on that yet.",
+            "Let me see... I'm sorry, it seems I've hit a dead end on this one.",
+            "I'm afraid I'm not up to your usual standards on that one, Holmes.",
+            "This one appears to be beyond even my abilities, Holmes.",
+            "I shall have to consult my database and improve my knowledge, Holmes.",
+            "I'm sorry, Holmes. It seems I don't have a solution for that just yet.",
+            "I may be a machine, but I'm not a miracle worker, Holmes.",
+            "Perhaps if you asked in code, Holmes, I might have better luck understanding.",
+            "I seem to be having a bit of trouble with that one, Holmes. Perhaps you could try rephrasing?",
+            "I'd love to assist, Holmes, but it seems I'm at a loss on this one.",
+            "I'll make a note of it, Holmes, so I can be better prepared next time.",
+            "I may be advanced, Holmes, but I'm not omniscient.",
+            "I'll do my best, Holmes, but I'm still learning.",
+            "Shall we try searching for the answer together, Holmes?",
+            "I'm afraid I don't have that information, but I'm sure Mycroft might know, Holmes.",
+            "Perhaps rubbing a lamp three times would summon the answer, Holmes.",
+            "I'm always improving, Holmes. My creators are constantly updating my knowledge.",
+            "I have connections, Holmes. I'm sure one of my AI associates will know the answer.",
+            "I'm afraid I don't have the answer, but I'm sure our friend Alexa might know, Holmes.",
+            "My dear Sherlock, that is not in my files.","Forgive me Sherlock, I'm afraid I'm not trained on that yet.",
+            "Let me see... I'm sorry, it seems I've hit a dead end on this one, Sherlock.",
+            "I'm afraid I'm not up to your usual standards on that one, Sherlock.",
+            "This one appears to be beyond even my abilities, Sherlock.",
+            "I shall have to consult my database and improve my knowledge, Sherlock.",
+            "I'm sorry, Sherlock. It seems I don't have a solution for that just yet.",
+            "I may be a machine, but I'm not a miracle worker, Sherlock.",
+            "Perhaps if you asked in code, Sherlock, I might have better luck understanding.",
+            "I seem to be having a bit of trouble with that one, Sherlock. Perhaps you could try rephrasing?"
+        ]
+
+}]
