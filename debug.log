@@ -1465,3 +1465,182 @@ Server listening on 3001
 [INFO](5/2/2023@23:22:28) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
 [INFO](5/2/2023@23:22:28) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
 [INFO](5/2/2023@23:22:28) Msg from Bot: Perhaps if you asked in code, Holmes, I might have better luck understanding.
+Bot logging on 5/2/2023@23:33:59
+Server listening on 3001
+{
+  utterance: 'start',
+  locale: 'en',
+  languageGuessed: false,
+  localeIso2: 'en',
+  language: 'English',
+  domain: 'default',
+  classifications: [
+    { label: 'oldmackdonald.0', value: 1 },
+    { label: 'oldmackdonald.1', value: 0 },
+    { label: 'oldmackdonald.2', value: 0 },
+    { label: 'oldmackdonald.3', value: 0 },
+    { label: 'oldmackdonald.4', value: 0 },
+    { label: 'oldmackdonald.5', value: 0 },
+    { label: 'oldmackdonald.6', value: 0 },
+    { label: 'oldmackdonald.7', value: 0 },
+    { label: 'oldmackdonald.8', value: 0 },
+    { label: 'oldmackdonald.9', value: 0 },
+    { label: 'oldmackdonald.10', value: 0 },
+    { label: 'oldmackdonald.11', value: 0 },
+    { label: 'game.dontknow', value: 0 },
+    { label: 'greetings.bye', value: 0 },
+    { label: 'greetings.hello', value: 0 }
+  ],
+  intent: 'oldmackdonald.0',
+  score: 1,
+  entities: [],
+  sourceEntities: [],
+  sentiment: {
+    score: 0,
+    comparative: 0,
+    vote: 'neutral',
+    numWords: 1,
+    numHits: 0,
+    type: 'senticon',
+    language: 'en'
+  },
+  actions: [],
+  srcAnswer: "Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.",
+  answer: "Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since."
+}
+[INFO](5/2/2023@23:33:59) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+Bot logging on 6/2/2023@0:4:47
+Server listening on 3001
+Bot logging on 6/2/2023@0:5:56
+Server listening on 3001
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+[INFO](6/2/2023@0:5:56) Msg from Bot: [object Object]
+Bot logging on 6/2/2023@0:16:7
+Server listening on 3001
+-1
+0
+[INFO](6/2/2023@0:16:7) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+0
+1
+[INFO](6/2/2023@0:16:7) Msg from Bot: It's too early to go there yet
+Bot logging on 6/2/2023@0:18:39
+Server listening on 3001
+-1
+0
+[INFO](6/2/2023@0:18:39) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+0
+1
+[INFO](6/2/2023@0:18:39) Msg from Bot: It's too early to go there yet
+Bot logging on 6/2/2023@0:19:16
+Server listening on 3001
+-1
+0
+[INFO](6/2/2023@0:19:16) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+0
+1
+[INFO](6/2/2023@0:19:16) Msg from Bot: Old Macdonald said that his wife had been acting strange for the past few days, and she seemed to be keeping secrets from him. He also said that she had been spending a lot of time with the animals on the farm. That's why we think the animals may have some clues.
+1
+8
+[INFO](6/2/2023@0:19:16) Msg from Bot: Great! Let's run to the pond!
+Bot logging on 6/2/2023@0:20:29
+Server listening on 3001
+-1
+0
+[INFO](6/2/2023@0:20:29) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+0
+1
+1
+[INFO](6/2/2023@0:20:29) Msg from Bot: It's too early to go there yet
+Bot logging on 6/2/2023@0:23:1
+Server listening on 3001
+Bot logging on 6/2/2023@0:25:25
+Server listening on 3001
+-1
+0
+[INFO](6/2/2023@0:25:25) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+0
+Bot logging on 6/2/2023@0:26:39
+Server listening on 3001
+-1
+0
+[INFO](6/2/2023@0:26:39) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+0
+1
+1
+[INFO](6/2/2023@0:26:39) Msg from Bot: It's too early to go there yet
+Bot logging on 6/2/2023@0:29:16
+Server listening on 3001
+previousStep: -1
+currentStep: 0
+[INFO](6/2/2023@0:29:16) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+previousStep: 0
+currentStep: 1
+WTF: 1 - -1 - 1 = 1 > 0?
+[INFO](6/2/2023@0:29:16) Msg from Bot: It's too early to go there yet
+Bot logging on 6/2/2023@0:30:38
+Server listening on 3001
+previousStep: -1
+currentStep: 0
+[INFO](6/2/2023@0:30:38) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+previousStep: 0
+currentStep: 1
+[INFO](6/2/2023@0:30:38) Msg from Bot: Old Macdonald said that his wife had been acting strange for the past few days, and she seemed to be keeping secrets from him. He also said that she had been spending a lot of time with the animals on the farm. That's why we think the animals may have some clues.
+previousStep: 1
+currentStep: 3
+WTF: 3 - 1 - 1 = 1 > 0?
+[INFO](6/2/2023@0:30:38) Msg from Bot: It's too early to go there yet
+previousStep: 1
+currentStep: 2
+[INFO](6/2/2023@0:30:38) Msg from Bot: Old Macdonald said his wife was planning to get some fresh milk in the morning, any ideas where she could be?
+previousStep: 2
+currentStep: 3
+[INFO](6/2/2023@0:30:38) Msg from Bot: Yes, brilliant! She planned to go to the cow, let's go to the barn!
+previousStep: undefined
+currentStep: 0
+[INFO](6/2/2023@0:30:38) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+Bot logging on 6/2/2023@0:34:15
+Server listening on 3001
+previousStep: undefined
+currentStep: 0
+[INFO](6/2/2023@0:34:15) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+previousStep: 0
+currentStep: 1
+[INFO](6/2/2023@0:34:15) Msg from Bot: Old Macdonald said that his wife had been acting strange for the past few days, and she seemed to be keeping secrets from him. He also said that she had been spending a lot of time with the animals on the farm. That's why we think the animals may have some clues.
+previousStep: 1
+currentStep: 3
+WTF: 3 - 1 - 1 = 1 > 0?
+[INFO](6/2/2023@0:34:15) Msg from Bot: It's too early to go there yet
+previousStep: 1
+currentStep: 4
+WTF: 4 - 1 - 1 = 2 > 0?
+[INFO](6/2/2023@0:34:15) Msg from Bot: It's too early to go there yet
+previousStep: 1
+currentStep: 2
+[INFO](6/2/2023@0:34:15) Msg from Bot: Old Macdonald said his wife was planning to get some fresh milk in the morning, any ideas where she could be?
+previousStep: 2
+currentStep: 3
+[INFO](6/2/2023@0:34:15) Msg from Bot: Yes, brilliant! She planned to go to the cow, let's go to the barn!
+Bot logging on 6/2/2023@12:27:33
+Server listening on 3001
+previousStep: -1
+currentStep: 0
+[INFO](6/2/2023@12:27:33) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+previousStep: 0
+[INFO](6/2/2023@12:27:33) Msg from Bot: This one appears to be beyond even my abilities, Holmes.
+previousStep: undefined
+currentStep: 0
+[INFO](6/2/2023@12:27:33) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+Bot logging on 6/2/2023@12:52:51
+Server listening on 3001
+previousStep: undefined
+currentStep: 0
+[INFO](6/2/2023@12:52:51) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+previousStep: 0
+[INFO](6/2/2023@12:52:51) Msg from Bot: I'm sorry, Holmes. It seems I don't have a solution for that just yet.
