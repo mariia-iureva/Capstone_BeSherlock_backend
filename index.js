@@ -59,6 +59,17 @@ app.get("/", function (req, res) {
   res.send("Hi! I am Masha's game ChatBot.");
 });
 
+app.get("/getLogs", function (req, res) {
+  fs.readFile("./debug.log", function (err, data) {
+    if (err) {
+      throw err;
+    }
+    res.writeHead(200, { "Content-Type": "text/html" });
+    res.end(data);
+    return;
+  });
+});
+
 app.post("/postMessage", async function (req, res) {
   let message = req.body.message;
   let step = req.body.step;

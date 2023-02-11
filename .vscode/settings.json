@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e655f62b-ace1-4125-91df-a68237b2f48b/appservices/subscriptions/e655f62b-ace1-4125-91df-a68237b2f48b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/besherlockbackend07022023",
+    "appService.deploySubpath": "."
+}
