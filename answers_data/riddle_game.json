@@ -3,49 +3,49 @@
         "trigger": [
             "02", "2"
         ],
-        "reply": [
-            "Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say \"Let's go\" to start"
-        ]
+        "reply": 
+            "Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say _Let's go_ to start"
+        
     },
     {
         "trigger": [
             "let's go",
             "Let's go"
         ],
-        "reply": [
-                "Ok, let's see. Our first puzzle is a riddle: \n \"I am a single letter, but I am also a pronoun. I am the first person singular, but I also refer to myself. What am I?\" (remember that you can always ask me for the tip. Say \"first riddle tip\" to get a tip"
-        ]
+        "reply": 
+                "Ok, let's see. Our first puzzle is a riddle: \n _I am a single letter, but I am also a pronoun. I am the first person singular, but I also refer to myself. What am I?_ (remember that you can always ask me for the tip. Say _first riddle tip_ to get a tip"
+        
     },
     {
         "trigger": [
             "I"
         ],
-        "reply": [
-                "Ok, great! You got this! Next one: \n \"I am an emotion that can make you feel warm and fuzzy inside. I am something that can bring people together. I am what some say is the most powerful force in the world. What am I?\" (remember that you can always ask me for the tip. Say \"second riddle tip\" to get a tip"
-        ]
+        "reply": 
+                "Ok, great! You got this! Next one: \n _I am an emotion that can make you feel warm and fuzzy inside. I am something that can bring people together. I am what some say is the most powerful force in the world. What am I?_ (remember that you can always ask me for the tip. Say _second riddle tip_ to get a tip"
+        
     },
     {
         "trigger": [
             "love"
         ],
-        "reply": [
-                "You did it again, Sherlock!! \nNext one is tough. I have a code for you that you'll have to decode.Ready? \n Here it is: \n 1 4 1 \n 4 5 22 5 12 15 16 5 18 19 \n 1 3 1 4 5 13 25 (remember that you can always ask me for the tip. Say \"code tip\" to get a tip"
-        ]
+        "reply": 
+                "You did it again, Sherlock!! \nNext one is tough. I have a code for you that you'll have to decode.Ready? \n Here it is: \n 1 4 1 \n 4 5 22 5 12 15 16 5 18 19 \n 1 3 1 4 5 13 25 (remember that you can always ask me for the tip. Say _code tip_ to get a tip"
+        
     },
     {
         "trigger": [
             "ada developers academy"
         ],
-        "reply": [
+        "reply": 
                 "We're almost there. Now you need to use all the clues you have to win the game! The final phrase that you can get from the clues you have will be the key!"
-        ]
+        
     },
     {
         "trigger": [
             "I love Ada Developers Academy"
         ],
-        "reply": [
+        "reply": 
                 "That's it, congratulations!"
-        ]
+        
     }
 ]

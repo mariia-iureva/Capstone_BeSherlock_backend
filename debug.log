@@ -403,3 +403,206 @@ currentStep: undefined
  2) Mystery case 02 
  3) Mystery case 03 
  Just type the number or the case name to get started.
+Bot logging on 12/2/2023@16:55:24
+Server listening on 3001
+[INFO](12/2/2023@16:55:24) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:55:24) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:55:24) Msg from user: 2
+previousStep: undefined
+currentStep: 0
+[INFO](12/2/2023@16:55:24) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say "Let's go" to start
+[INFO](12/2/2023@16:55:24) Msg from user: love
+previousStep: 0
+currentStep: 3
+WTF: 3 - 0 - 1 = 2 > 0?
+[INFO](12/2/2023@16:55:24) Msg from Bot: It's too early to go there yet
+[INFO](12/2/2023@16:55:24) Msg from user: let's go
+previousStep: 0
+currentStep: 1
+[INFO](12/2/2023@16:55:24) Msg from Bot: Ok, let's see. Our first puzzle is a riddle: 
+ "I am a single letter, but I am also a pronoun. I am the first person singular, but I also refer to myself. What am I?" (remember that you can always ask me for the tip. Say "first riddle tip" to get a tip
+Bot logging on 13/2/2023@11:41:3
+Server listening on 3001
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from user: HELLO!
+previousStep: undefined
+currentStep: undefined
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from Bot: Hey there!
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from user: START
+previousStep: undefined
+currentStep: undefined
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from user: 2
+previousStep: undefined
+currentStep: 0
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say _Let's go_ to start
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from user: 2
+previousStep: 0
+currentStep: 0
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from Bot: We're there now
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from user: let's go
+previousStep: 0
+currentStep: 1
+[Msg from TELEGRAM](13/2/2023@11:41:3) Msg from Bot: Ok, let's see. Our first puzzle is a riddle: 
+ _I am a single letter, but I am also a pronoun. I am the first person singular, but I also refer to myself. What am I?_ (remember that you can always ask me for the tip. Say _first riddle tip_ to get a tip
+Bot logging on 13/2/2023@11:46:17
+Server listening on 3001
+[Msg from TELEGRAM](13/2/2023@11:46:17) Msg from user: start
+previousStep: -2
+currentStep: undefined
+__________________this is reply
+My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+________this is message
+start
+____________this is message
+{
+  message_id: 515,
+  from: {
+    id: 219019203,
+    is_bot: false,
+    first_name: 'Mariia',
+    last_name: 'Iureva',
+    username: 'Mariia_iureva',
+    language_code: 'en'
+  },
+  chat: {
+    id: 219019203,
+    first_name: 'Mariia',
+    last_name: 'Iureva',
+    username: 'Mariia_iureva',
+    type: 'private'
+  },
+  date: 1676317589,
+  text: 'start'
+}
+[Msg from TELEGRAM](13/2/2023@11:46:17) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[Msg from TELEGRAM](13/2/2023@11:46:17) Msg from user: 2
+previousStep: undefined
+currentStep: 0
+__________________this is reply
+[
+  "Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say _Let's go_ to start"
+]
+________this is message
+2
+____________this is message
+{
+  message_id: 517,
+  from: {
+    id: 219019203,
+    is_bot: false,
+    first_name: 'Mariia',
+    last_name: 'Iureva',
+    username: 'Mariia_iureva',
+    language_code: 'en'
+  },
+  chat: {
+    id: 219019203,
+    first_name: 'Mariia',
+    last_name: 'Iureva',
+    username: 'Mariia_iureva',
+    type: 'private'
+  },
+  date: 1676317609,
+  text: '2'
+}
+[Msg from TELEGRAM](13/2/2023@11:46:17) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say _Let's go_ to start
+Bot logging on 13/2/2023@11:48:46
+Server listening on 3001
+[Msg from TELEGRAM](13/2/2023@11:48:46) Msg from user: start
+previousStep: -2
+currentStep: undefined
+__________________this is reply
+My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+________this is message
+start
+____________this is message
+{
+  message_id: 518,
+  from: {
+    id: 219019203,
+    is_bot: false,
+    first_name: 'Mariia',
+    last_name: 'Iureva',
+    username: 'Mariia_iureva',
+    language_code: 'en'
+  },
+  chat: {
+    id: 219019203,
+    first_name: 'Mariia',
+    last_name: 'Iureva',
+    username: 'Mariia_iureva',
+    type: 'private'
+  },
+  date: 1676317731,
+  text: 'start'
+}
+[Msg from TELEGRAM](13/2/2023@11:48:46) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[Msg from TELEGRAM](13/2/2023@11:48:46) Msg from user: 2
+previousStep: undefined
+currentStep: 0
+__________________this is reply
+Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say _Let's go_ to start
+________this is message
+2
+____________this is message
+{
+  message_id: 520,
+  from: {
+    id: 219019203,
+    is_bot: false,
+    first_name: 'Mariia',
+    last_name: 'Iureva',
+    username: 'Mariia_iureva',
+    language_code: 'en'
+  },
+  chat: {
+    id: 219019203,
+    first_name: 'Mariia',
+    last_name: 'Iureva',
+    username: 'Mariia_iureva',
+    type: 'private'
+  },
+  date: 1676317734,
+  text: '2'
+}
+[Msg from TELEGRAM](13/2/2023@11:48:46) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say _Let's go_ to start
+Bot logging on 13/2/2023@13:10:13
+Server listening on 3001

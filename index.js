@@ -81,15 +81,32 @@ app.post("/postMessage", async function (req, res) {
 });
 
 app.post("/postMessageFromTelegram", async (req, res) => {
-  const previousStep = telegramMapping[req.body.message.chat.id];
+  let key = req.body.message.chat.id;
+  // let previousStep = -2
+  if (req.body.message.text === "start") {
+    telegramMapping[key] = -2;
+  }
+
+  previousStep = telegramMapping[key];
+
   console.log(
-    "[INFO](" + timestamp + ") Msg from user: " + req.body.message.text
+    "[Msg from TELEGRAM](" +
+      timestamp +
+      ") Msg from user: " +
+      req.body.message.text
   );
   const { reply, step } = await getReply(req.body.message.text, previousStep);
-  telegramMapping[req.body.message.chat.id] = step;
-  console.log("[INFO](" + timestamp + ") Msg from Bot: " + reply);
+  console.log("__________________this is reply");
+  console.log(reply);
+  console.log("________this is message");
+  console.log(req.body.message.text);
+  console.log("____________this is message");
+  console.log(req.body.message);
 
-  bot.sendMessage(req.body.message.chat.id, reply);
+  telegramMapping[key] = step;
+  console.log("[Msg from TELEGRAM](" + timestamp + ") Msg from Bot: " + reply);
+
+  bot.sendMessage(key, reply);
   return res.status(200).json();
 });
 
@@ -123,6 +140,12 @@ const STEPS2 = {
   "oldmackdonald.9": 9,
   "oldmackdonald.10": 10,
   "oldmackdonald.11": 11,
+  "riddlegame.0": 0,
+  "riddlegame.1": 1,
+  "riddlegame.2": 2,
+  "riddlegame.3": 3,
+  "riddlegame.4": 4,
+  "riddlegame.5": 5,
 };
 
 const getReply = async (message, previousStep) => {
