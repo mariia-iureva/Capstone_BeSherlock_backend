@@ -1,24 +1,30 @@
 [
     {
         "triggers": [
-            "/start",
-            "start"
+            "01",
+            "1",
+            "Old Macdonald has lost his wife",
+            "Macdonald",
+            "wife"
         ],
         "replies": [
             {
-                "reply": "Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.",
+                "reply": "Good choice, Sherlock! \nOld Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. Are you ready for some details I have?",
                 "type": "text"
             }
         ]
     },
     {
         "triggers": [
-            "alright",
-            "case"
+            "yes",
+            "ready",
+            "I'm ready",
+            "details",
+            "give me some details"
         ],
         "replies": [
             {
-                "reply": "Old Macdonald said that his wife had been acting strange for the past few days, and she seemed to be keeping secrets from him. He also said that she had been spending a lot of time with the animals on the farm. That's why we think the animals may have some clues.",
+                "reply": "Old Macdonald said that his wife had been acting strange for the past few days, and she seemed to be keeping secrets from him. He also said that she had been spending a lot of time with the animals on the farm. That's why we think the animals may have some clues. Say \"first clue\" or \"give me the clue\" to get the clue I have",
                 "type": "text"
             }
         ]
@@ -26,7 +32,8 @@
     {
         "triggers": [
             "first",
-            "information",
+            "first clue",
+            "give me the clue",
             "first clue"
         ],
         "replies": [
@@ -38,15 +45,16 @@
     },
     {
         "triggers": [
-            "cow"
+            "cow", "barn", "cow barn", "cows"
         ],
         "replies": [
             {
-                "reply": "Yes, brilliant! She planned to go to the cow, let's go to the barn!",
+                "reply": "Yes, brilliant! She might have planned to go to the cow, let's go check the barn! When you're ready say \"second clue\" and I'll ask the cow if she saw anything",
                 "type": "text"
             }
         ]
     },
+
     {
         "triggers": [
             "ask the cow",
@@ -61,11 +69,11 @@
     },
     {
         "triggers": [
-            "sheep"
+            "sheep", "sheeps"
         ],
         "replies": [
             {
-                "reply": "Great idea! Let's go to the pasture!",
+                "reply": "Great idea! Let's go to the pasture! When we're there, say \"third clue\" and I'll ask the sheep if she can help",
                 "type": "text"
             }
         ]
@@ -73,7 +81,7 @@
     {
         "triggers": [
             "ask the sheep",
-            "third"
+            "third clue"
         ],
         "replies": [
             {
@@ -84,24 +92,11 @@
     },
     {
         "triggers": [
-            "chickens",
-            "chicken"
+            "ducks", "duck"
         ],
         "replies": [
             {
-                "reply": "I'm afraid they don't have chickens here on this farm. Any other ideas?",
-                "type": "text"
-            }
-        ]
-    },
-    {
-        "triggers": [
-            
-            "ducks"
-        ],
-        "replies": [
-            {
-                "reply": "Great! Let's run to the pond!",
+                "reply": "Great! Let's run to the pond and ask the ducks! Say \"ask the duck\" to get the next clue!",
                 "type": "text"
             }
         ]
@@ -112,24 +107,26 @@
         ],
         "replies": [
             {
-                "reply": "The duck says it's all for the birthday cake! She says we should check big red farm builing!",
+                "reply": "The duck says it's all for the birthday cake! She says we should take Old Mackdonald to the white pavilion and see what's there! What do we do next?",
                 "type": "text"
             }
         ]
     },
     {
         "triggers": [
-            "barn"
+            "pavilion", "go to the pavilion", "let's go to the pavilion"
         ],
         "replies": [
             {
-                "reply": " The barn! That must be where she is. Let's hurry! Do you hear the music?",
+                "reply": " Brilliant! Let's hurry! Do you hear the music? (You should agree here to proceed :)",
                 "type": "text"
             }
         ]
     },    
     {
         "triggers": [
+            "yes",
+            "of course",
             "music",
             "yes, I hear"
         ],

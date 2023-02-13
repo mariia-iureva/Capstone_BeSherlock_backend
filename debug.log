@@ -14,3 +14,392 @@ previousStep: 0
 [INFO](6/2/2023@18:51:56) Msg from Bot: Shall we try searching for the answer together, Holmes?
 Bot logging on 10/2/2023@10:14:37
 Server listening on 3001
+Bot logging on 12/2/2023@14:0:21
+Server listening on 3001
+previousStep: -1
+[INFO](12/2/2023@14:0:21) Msg from Bot: Forgive me Sherlock, I'm afraid I'm not trained on that yet.
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@14:0:21) Msg from Bot: My dear Holmes, I'm glad you're here. \n We have three cases I desperately need you help with! \n Please, choose wisely: \n 1) Old Macdonald has lost his wife \n 2) Mystery case 02 \n 3) Mystery case 03 \n Just type the number or the case name to get started.
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@14:0:21) Msg from Bot: My dear Holmes, I'm glad you're here. \n We have three cases I desperately need you help with! \n Please, choose wisely: \n 1) Old Macdonald has lost his wife \n 2) Mystery case 02 \n 3) Mystery case 03 \n Just type the number or the case name to get started.
+Bot logging on 12/2/2023@14:8:41
+Server listening on 3001
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@14:8:41) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@14:8:41) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+previousStep: undefined
+[INFO](12/2/2023@14:8:41) Msg from Bot: I have connections, Holmes. I'm sure one of my AI associates will know the answer.
+Bot logging on 12/2/2023@14:10:55
+Server listening on 3001
+previousStep: null
+currentStep: 0
+[INFO](12/2/2023@14:10:55) Msg from Bot: We're there now
+Bot logging on 12/2/2023@14:17:57
+Server listening on 3001
+[INFO](12/2/2023@14:17:57) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@14:17:57) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@14:17:57) Msg from user: 1
+previousStep: undefined
+currentStep: 0
+[INFO](12/2/2023@14:17:57) Msg from Bot: Sherlock, we've been waiting for you! Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. We have reason to believe that she left the farm in the early morning, and no one has seen her since.
+[INFO](12/2/2023@14:17:57) Msg from user: alright
+previousStep: 0
+currentStep: 1
+[INFO](12/2/2023@14:17:57) Msg from Bot: Old Macdonald said that his wife had been acting strange for the past few days, and she seemed to be keeping secrets from him. He also said that she had been spending a lot of time with the animals on the farm. That's why we think the animals may have some clues.
+Bot logging on 12/2/2023@14:52:12
+Server listening on 3001
+[INFO](12/2/2023@14:52:12) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@14:52:12) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@14:52:12) Msg from user: 1
+previousStep: undefined
+currentStep: 0
+[INFO](12/2/2023@14:52:12) Msg from Bot: Good choice, Sherlock! 
+Old Macdonald's wife has gone missing and we need your help to find her. He believes that the animals on his farm may have some information about her whereabouts. Are you ready for some details I have?
+[INFO](12/2/2023@14:52:12) Msg from user: yes!
+previousStep: 0
+currentStep: 10
+WTF: 10 - 0 - 1 = 9 > 0?
+[INFO](12/2/2023@14:52:12) Msg from Bot: It's too early to go there yet
+[INFO](12/2/2023@14:52:12) Msg from user: yes I'm ready
+previousStep: 0
+currentStep: 1
+[INFO](12/2/2023@14:52:12) Msg from Bot: Old Macdonald said that his wife had been acting strange for the past few days, and she seemed to be keeping secrets from him. He also said that she had been spending a lot of time with the animals on the farm. That's why we think the animals may have some clues. Say "first clue" or "give me the clue" to get the clue I have
+[INFO](12/2/2023@14:52:12) Msg from user: first clue
+previousStep: 1
+currentStep: 2
+[INFO](12/2/2023@14:52:12) Msg from Bot: Old Macdonald said his wife was planning to get some fresh milk in the morning, any ideas where she could be?
+[INFO](12/2/2023@14:52:12) Msg from user: goat
+previousStep: 2
+currentStep: undefined
+[INFO](12/2/2023@14:52:12) Msg from Bot: Oh, now, I don't think they have goats on this farm. Any other idea what animal can help us?
+[INFO](12/2/2023@14:52:12) Msg from user: cow
+previousStep: undefined
+currentStep: 3
+[INFO](12/2/2023@14:52:12) Msg from Bot: Yes, brilliant! She might have planned to go to the cow, let's go check the barn! When you're ready say "second clue" and I'll ask the cow if she saw anything
+[INFO](12/2/2023@14:52:12) Msg from user: second clue
+previousStep: 3
+currentStep: 4
+[INFO](12/2/2023@14:52:12) Msg from Bot: The cow says the woman also planned to prepare new yarn for the market. Where could it be?
+[INFO](12/2/2023@14:52:12) Msg from user: elephant!
+previousStep: 4
+[INFO](12/2/2023@14:52:12) Msg from Bot: Let me see... I'm sorry, it seems I've hit a dead end on this one.
+[INFO](12/2/2023@14:52:12) Msg from user: sheep
+previousStep: 4
+currentStep: 5
+[INFO](12/2/2023@14:52:12) Msg from Bot: Great idea! Let's go to the pasture! When we're there, say "third clue" and I'll ask the sheep if she can help
+[INFO](12/2/2023@14:52:12) Msg from user: third clue
+previousStep: 5
+currentStep: 6
+[INFO](12/2/2023@14:52:12) Msg from Bot: Sheep says she wanted to get some eggs
+[INFO](12/2/2023@14:52:12) Msg from user: chickens
+previousStep: 6
+currentStep: undefined
+[INFO](12/2/2023@14:52:12) Msg from Bot: I'm afraid they don't have chickens here on this farm. Any other ideas?
+[INFO](12/2/2023@14:52:12) Msg from user: ducks
+previousStep: undefined
+currentStep: 7
+[INFO](12/2/2023@14:52:12) Msg from Bot: Great! Let's run to the pond and ask the ducks! Say "ask the duck" to get the next clue!
+Bot logging on 12/2/2023@16:2:34
+Server listening on 3001
+[INFO](12/2/2023@16:2:34) Msg from user: star
+previousStep: -1
+[INFO](12/2/2023@16:2:34) Msg from Bot: Let me see... I'm sorry, it seems I've hit a dead end on this one, Sherlock.
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: 2
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say "Let's go" to start
+[INFO](12/2/2023@16:2:34) Msg from user: let's go
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Ok, let's see. Our first puzzle is a riddle: 
+ "I am a single letter, but I am also a pronoun. I am the first person singular, but I also refer to myself. What am I?" (remember that you can always ask me for the tip. Say "first riddle tip" to get a tip
+[INFO](12/2/2023@16:2:34) Msg from user: I
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Ok, great! You got this! Next one: 
+ "I am an emotion that can make you feel warm and fuzzy inside. I am something that can bring people together. I am what some say is the most powerful force in the world. What am I?" (remember that you can always ask me for the tip. Say "second riddle tip" to get a tip
+[INFO](12/2/2023@16:2:34) Msg from user: second riddle tip
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Think about a feeling that is often associated with happiness and positivity
+[INFO](12/2/2023@16:2:34) Msg from user: love
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: You did it again, Sherlock!! 
+Next one is tough. I have a code for you that you'll have to decode.Ready? 
+ Here it is: 
+ 1 4 1 
+ 4 5 22 5 12 15 16 5 18 19 
+ 1 3 1 4 5 13 25 (remember that you can always ask me for the tip. Say "code tip" to get a tip
+[INFO](12/2/2023@16:2:34) Msg from user: ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: We're almost there. Now you need to use all the clues you have to win the game! The final phrase that you can get from the clues you have will be the key!
+[INFO](12/2/2023@16:2:34) Msg from user: I love ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: That's it, congratulations!
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: 2
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say "Let's go" to start
+[INFO](12/2/2023@16:2:34) Msg from user: i
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Ok, great! You got this! Next one: 
+ "I am an emotion that can make you feel warm and fuzzy inside. I am something that can bring people together. I am what some say is the most powerful force in the world. What am I?" (remember that you can always ask me for the tip. Say "second riddle tip" to get a tip
+[INFO](12/2/2023@16:2:34) Msg from user: love
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: You did it again, Sherlock!! 
+Next one is tough. I have a code for you that you'll have to decode.Ready? 
+ Here it is: 
+ 1 4 1 
+ 4 5 22 5 12 15 16 5 18 19 
+ 1 3 1 4 5 13 25 (remember that you can always ask me for the tip. Say "code tip" to get a tip
+[INFO](12/2/2023@16:2:34) Msg from user: ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: We're almost there. Now you need to use all the clues you have to win the game! The final phrase that you can get from the clues you have will be the key!
+[INFO](12/2/2023@16:2:34) Msg from user: i love ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: That's it, congratulations!
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: dfsdfsf
+previousStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: I'd love to assist, Holmes, but it seems I'm at a loss on this one.
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: 2
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say "Let's go" to start
+[INFO](12/2/2023@16:2:34) Msg from user: i
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Ok, great! You got this! Next one: 
+ "I am an emotion that can make you feel warm and fuzzy inside. I am something that can bring people together. I am what some say is the most powerful force in the world. What am I?" (remember that you can always ask me for the tip. Say "second riddle tip" to get a tip
+[INFO](12/2/2023@16:2:34) Msg from user: love
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: You did it again, Sherlock!! 
+Next one is tough. I have a code for you that you'll have to decode.Ready? 
+ Here it is: 
+ 1 4 1 
+ 4 5 22 5 12 15 16 5 18 19 
+ 1 3 1 4 5 13 25 (remember that you can always ask me for the tip. Say "code tip" to get a tip
+[INFO](12/2/2023@16:2:34) Msg from user: ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: We're almost there. Now you need to use all the clues you have to win the game! The final phrase that you can get from the clues you have will be the key!
+[INFO](12/2/2023@16:2:34) Msg from user: i love ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: That's it, congratulations!
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: 3
+previousStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: I'm afraid I'm not up to your usual standards on that one, Holmes.
+[INFO](12/2/2023@16:2:34) Msg from user: 2
+previousStep: null
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say "Let's go" to start
+[INFO](12/2/2023@16:2:34) Msg from user: let's go
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Ok, let's see. Our first puzzle is a riddle: 
+ "I am a single letter, but I am also a pronoun. I am the first person singular, but I also refer to myself. What am I?" (remember that you can always ask me for the tip. Say "first riddle tip" to get a tip
+[INFO](12/2/2023@16:2:34) Msg from user: I love ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: That's it, congratulations!
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: 2
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say "Let's go" to start
+[INFO](12/2/2023@16:2:34) Msg from user: i love ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: That's it, congratulations!
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: i love ada developers accademy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: That's it, congratulations!
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.
+[INFO](12/2/2023@16:2:34) Msg from user: 02
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: Sherlock, I have received a mysterious letter inviting us to a puzzle hunt. The letter says that whoever solves all five puzzles will win a valuable prize. Are you up for the challenge? Say "Let's go" to start
+[INFO](12/2/2023@16:2:34) Msg from user: i love ada developers academy
+previousStep: undefined
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: That's it, congratulations!
+[INFO](12/2/2023@16:2:34) Msg from user: start
+previousStep: -1
+currentStep: undefined
+[INFO](12/2/2023@16:2:34) Msg from Bot: My dear Holmes, I'm glad you're here. 
+ We have three cases I desperately need you help with! 
+ Please, choose wisely: 
+ 1) Old Macdonald has lost his wife 
+ 2) Mystery case 02 
+ 3) Mystery case 03 
+ Just type the number or the case name to get started.

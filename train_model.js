@@ -1,27 +1,63 @@
 const { NlpManager } = require("node-nlp");
 
-var jsonData = require("./answers.json");
-var jsonData02 = require("./dont_know_answers.json");
+var oldMacJsonData = require("./answers_data/old_macdonald_game.json");
+var dontKnowData = require("./answers_data/dont_know_answers.json");
+var gameSelectionData = require("./answers_data/game_selection.json");
+var wrongAnswersData = require("./answers_data/game_wrong_answers.json");
+var riddleGameData = require("./answers_data/riddle_game.json");
+var tipsData = require("./answers_data/tips.json");
 
 const manager = new NlpManager({ languages: ["en"] });
 
 // Looping over json 01
 
-jsonData.forEach((element, id) => {
+oldMacJsonData.forEach((element, id) => {
   element.triggers.forEach((input) => {
     manager.addDocument("en", input, `oldmackdonald.${id}`);
   });
   manager.addAnswer("en", `oldmackdonald.${id}`, element.replies[0].reply);
 });
 
-// looping over json 02
+// looping over json 02 (don't know answers)
 
-jsonData02.forEach((element) => {
+dontKnowData.forEach((element) => {
   manager.addDocument("en", element.trigger, `game.dontknow`);
 
   element.reply.forEach((reply) => {
     manager.addAnswer("en", `game.dontknow`, reply);
   });
+});
+
+// looping over json 03 (game selection answers)
+
+gameSelectionData.forEach((element) => {
+  element.trigger.forEach((input) => {
+    manager.addDocument("en", input, `game.select`);
+  });
+  manager.addAnswer("en", `game.select`, element.reply);
+});
+
+// looping over json 04 (wrong answers)
+
+wrongAnswersData.forEach((element) => {
+  element.trigger.forEach((input) => {
+    manager.addDocument("en", input, `game.wrong`);
+  });
+  manager.addAnswer("en", `game.wrong`, element.reply);
+});
+
+// looping over riddle game  data
+
+riddleGameData.forEach((element, id) => {
+  element.trigger.forEach((input) => {
+    manager.addDocument("en", input, `riddlegame.${id}`);
+  });
+  manager.addAnswer("en", `riddlegame.${id}`, element.reply);
+});
+
+tipsData.forEach((element, id) => {
+  manager.addDocument("en", element.trigger, `tips.${id}`);
+  manager.addAnswer("en", `tips.${id}`, element.reply);
 });
 
 // // //Adding don't know lines
@@ -52,6 +88,6 @@ manager.addAnswer("en", "greetings.hello", "Greetings!");
 (async () => {
   await manager.train();
   manager.save("./model.nlp", true);
-  const response = await manager.process("en", "Tell me you don't know");
+  const response = await manager.process("en", "love");
   console.log(response);
 })();

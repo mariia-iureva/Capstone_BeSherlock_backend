@@ -1,0 +1,6 @@
+[{
+    "trigger": 
+        ["Start", "/start", "start", "let's start"],
+    "reply": 
+        "My dear Holmes, I'm glad you're here. \n We have three cases I desperately need you help with! \n Please, choose wisely: \n 1) Old Macdonald has lost his wife \n 2) Mystery case 02 \n 3) Mystery case 03 \n Just type the number or the case name to get started."
+}]

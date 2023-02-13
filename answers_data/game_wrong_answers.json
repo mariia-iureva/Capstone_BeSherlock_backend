@@ -1,0 +1,19 @@
+[
+    {
+        "trigger": [
+            "goat", "goats"
+        ],
+        "reply": [
+            "Oh, now, I don't think they have goats on this farm. Any other idea what animal can help us?"
+        ]
+    },
+    {
+        "trigger": [
+            "chickens",
+            "chicken"
+        ],
+        "reply": [
+                "I'm afraid they don't have chickens here on this farm. Any other ideas?"
+        ]
+    }
+]

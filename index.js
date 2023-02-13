@@ -72,6 +72,7 @@ app.get("/getLogs", function (req, res) {
 
 app.post("/postMessage", async function (req, res) {
   let message = req.body.message;
+  console.log("[INFO](" + timestamp + ") Msg from user: " + message);
   let step = req.body.step;
 
   const reply = await getReply(message, step);
@@ -81,11 +82,13 @@ app.post("/postMessage", async function (req, res) {
 
 app.post("/postMessageFromTelegram", async (req, res) => {
   const previousStep = telegramMapping[req.body.message.chat.id];
+  console.log(
+    "[INFO](" + timestamp + ") Msg from user: " + req.body.message.text
+  );
   const { reply, step } = await getReply(req.body.message.text, previousStep);
   telegramMapping[req.body.message.chat.id] = step;
   console.log("[INFO](" + timestamp + ") Msg from Bot: " + reply);
 
-  // return the same message back
   bot.sendMessage(req.body.message.chat.id, reply);
   return res.status(200).json();
 });
@@ -128,7 +131,7 @@ const getReply = async (message, previousStep) => {
   previousStep = Number(previousStep);
 
   if (previousStep === undefined) {
-    previousStep = -1;
+    previousStep = -2;
   }
 
   if (reply.intent === "None") {

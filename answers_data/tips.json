@@ -1,0 +1,20 @@
+[
+    {
+        "trigger": 
+            "first riddle tip",
+        "reply": 
+            "Think about a letter that represents the self"
+    },
+    {
+    "trigger": 
+        "second riddle tip",
+    "reply": 
+        "Think about a feeling that is often associated with happiness and positivity"
+    },
+    {
+        "trigger": 
+            "code tip",
+        "reply": 
+            "1A 2B 3C 4D 5E 6F 7G 8H 9I 10J 11K 12L 13M 14N 15O 16P 17Q 18R 19S 20T 21U 22V 23W 24X 25Y 26Z"
+    }
+]
